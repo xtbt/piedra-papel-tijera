@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/piedra-papel-tijera/@css/base.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/piedra-papel-tijera/@css/base.css" />
+    <script type="text/javascript" src="/piedra-papel-tijera/@js/ppt.js"></script>
     <title>Piedra Papel o Tijera</title>
 </head>
 <body>
@@ -18,7 +19,21 @@
     </header>
     <hr />
     <main>
-
+        <h2 class="main__heading2">Selecciona tu ataque:</h2>
+        <section class="main__user_attack_container">
+            <a id="piedra" href="#"><img class="main__attack_image" src="/piedra-papel-tijera/@images/piedra.png" alt="Piedra" /></a>
+            <a id="papel" href="#"><img class="main__attack_image" src="/piedra-papel-tijera/@images/papel.png" alt="Papel" /></a>
+            <a id="tijeras" href="#"><img class="main__attack_image" src="/piedra-papel-tijera/@images/tijeras.png" alt="Tijeras" /></a>
+        </section>
+        <hr />
+        <h2 class="main__heading2">C.P.U.</h2>
+        <section class="main__cpu_attack_container">
+            <div id="cpu_attack_container__eyes">
+                <img class="main__attack_image" src="/piedra-papel-tijera/@images/evileyes.png" alt="Evil Eyes" />
+            </div>
+            <div id="respuesta_cpu"></div>
+        </section>
+        <p id="veredicto"></p>
     </main>
     <footer></footer>
 </body>
